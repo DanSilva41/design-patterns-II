@@ -1,0 +1,33 @@
+Book:
+    Design Patterns - Elements of Reusable Object-Oriented Software - 1994
+    Erich Gamma, Richard Helm, Ralph Johnson, John Vissides (Ganf of Four)
+
+23 padrões de projeto
+3 categorias:
+
+    * Criacionais: Cujo foco é na criação, construção de objetos
+    * Comportamentais: Focados nos métodos, estado e interação entr objetos
+    * ESTRUTURAIS: Focados em composição e estruturais entre objetos
+
+        - Adapter
+
+            Para saber mais: https://refactoring.guru/design-patterns/adapter
+                             https://refactoring.guru/design-patterns/adapter/java/example
+        - Decorator
+
+            Para saber mais: https://refactoring.guru/design-patterns/decorator
+                             https://refactoring.guru/design-patterns/decorator/java/example
+        - Composite
+
+            Para saber mais: https://refactoring.guru/design-patterns/composite
+                             https://refactoring.guru/design-patterns/composite/java/example
+
+        -  Facade
+
+            Para saber mais: https://refactoring.guru/design-patterns/facade
+                             https://refactoring.guru/design-patterns/facade/java/example
+        - Proxy
+
+             Para saber mais: https://refactoring.guru/design-patterns/proxy
+                              https://refactoring.guru/design-patterns/proxy/java/example
+
