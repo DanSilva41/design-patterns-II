@@ -11,4 +11,4 @@ The course covered the following topics:
 
 [Certified URL][]
 
-[Certified URL]: https://cursos.alura.com.br/certificate/cd7f095b-1ff0-4948-abcc-b6c4c8a377bc
+[Certified URL]: https://cursos.alura.com.br/certificate/17a30bec-e4f6-494c-b760-1462c0e14008
