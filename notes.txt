@@ -10,6 +10,10 @@ Book:
     * ESTRUTURAIS: Focados em composição e estruturais entre objetos
 
         - Adapter
+             "Permite que objetos com interfaces incompatíveis colaborem."
+             "Use quando quiser usar alguma classe existente, mas sua interface não é compatível com o resto do seu código."
+
+             "Use quando quiser reutilizar várias subclasses existentes que carecem de alguma funcionalidade comum que não pode ser adicionada à superclasse."
 
             Para saber mais: https://refactoring.guru/design-patterns/adapter
                              https://refactoring.guru/design-patterns/adapter/java/example
