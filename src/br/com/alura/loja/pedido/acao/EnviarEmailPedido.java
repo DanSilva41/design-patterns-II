@@ -6,6 +6,6 @@ public class EnviarEmailPedido implements AcaoAposGerarPedido {
 
     @Override
     public void executar(Pedido pedido) {
-        System.out.print("Enviando email com dados do pedido!");
+        System.out.println("Enviando email com dados do pedido!");
     }
 }

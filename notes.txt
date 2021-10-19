@@ -42,6 +42,9 @@ Book:
                              https://refactoring.guru/design-patterns/composite/java/example
 
         -  Facade
+            "Fornece uma interface simplificada (mas limitada) para um sistema complexo de classes, biblioteca ou estrutura."
+
+            "Use quando quiser estruturar um subsistema em camadas."
 
             Para saber mais: https://refactoring.guru/design-patterns/facade
                              https://refactoring.guru/design-patterns/facade/java/example
