@@ -16,15 +16,15 @@ public abstract class SituacaoOrcamento {
         return BigDecimal.ZERO;
     }
 
-    public void aprovar(Orcamento orcamento) {
+    public void aprovar(Orcamento orcamentoSimples) {
         throw new DomainException("Orçamento não pode ser aprovado!");
     }
 
-    public void reprovar(Orcamento orcamento) {
+    public void reprovar(Orcamento orcamentoSimples) {
         throw new DomainException("Orçamento não pode ser reprovado!");
     }
 
-    public void finalizar(Orcamento orcamento) {
+    public void finalizar(Orcamento orcamentoSimples) {
         throw new DomainException("Orçamento não pode ser finalizado!");
     }
 

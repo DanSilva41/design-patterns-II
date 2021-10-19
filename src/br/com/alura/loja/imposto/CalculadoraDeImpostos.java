@@ -1,12 +1,12 @@
 package br.com.alura.loja.imposto;
 
-import br.com.alura.loja.orcamento.Orcamento;
+import br.com.alura.loja.orcamento.OrcamentoSimples;
 
 import java.math.BigDecimal;
 
 public class CalculadoraDeImpostos {
 
-    public BigDecimal calcular(Orcamento orcamento, Imposto imposto) {
-        return imposto.calcular(orcamento);
+    public BigDecimal calcular(OrcamentoSimples orcamentoSimples, Imposto imposto) {
+        return imposto.calcular(orcamentoSimples);
     }
 }

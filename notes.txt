@@ -24,9 +24,19 @@ Book:
             "Usando decoradores, é possível agrupar objetos inúmeras vezes, pois os objetos de destino e os decoradores
             seguem a mesma interface. O objeto resultante terá um comportamento de empilhamento de todos os wrappers."
 
+            "Utilize quando você precisa ser capaz de projetar comportamentos adicionais para objetos em tempo de
+             execução sem quebrar o código que usa esses objetos."
+
+             "Utilize quando é complicado ou impossível estender o comportamento de um objeto usando herança.'
+
             Para saber mais: https://refactoring.guru/design-patterns/decorator
                              https://refactoring.guru/design-patterns/decorator/java/example
         - Composite
+            "Compor objetos como uma árvore."
+            "É possóvel trabalhar com coleções de itens que podem ter mais de uma implementação."
+
+            "Use quando precisar implementar uma estrutura de objeto semelhante a uma árvore."
+            "Use quando quiser que o código do cliente trate elementos simples e complexos de maneira uniforme."
 
             Para saber mais: https://refactoring.guru/design-patterns/composite
                              https://refactoring.guru/design-patterns/composite/java/example

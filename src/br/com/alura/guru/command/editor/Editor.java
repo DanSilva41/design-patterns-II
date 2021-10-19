@@ -1,7 +1,10 @@
 package br.com.alura.guru.command.editor;
 
 import br.com.alura.guru.command.actions.Action;
-import br.com.alura.guru.command.actions.*;
+import br.com.alura.guru.command.actions.ActionHistory;
+import br.com.alura.guru.command.actions.CopyAction;
+import br.com.alura.guru.command.actions.CutAction;
+import br.com.alura.guru.command.actions.PasteAction;
 
 import javax.swing.*;
 import java.awt.*;

@@ -1,6 +1,6 @@
 package br.com.alura.loja;
 
-import br.com.alura.loja.orcamento.Orcamento;
+import br.com.alura.loja.orcamento.OrcamentoSimples;
 
 import java.math.BigDecimal;
 
@@ -9,15 +9,15 @@ public class TesteDescontoExtraPorSituacao {
     private static final System.Logger log = System.getLogger("TesteDescontoExtraPorSituacao");
 
     public static void main(String[] args) {
-        Orcamento orcamento = new Orcamento(new BigDecimal("100"), 2);
-        log.log(System.Logger.Level.INFO, orcamento);
+        OrcamentoSimples orcamentoSimples = new OrcamentoSimples(new BigDecimal("100"), 2);
+        log.log(System.Logger.Level.INFO, orcamentoSimples);
 
-        orcamento.aprovar();
-        log.log(System.Logger.Level.INFO, orcamento);
+        orcamentoSimples.aprovar();
+        log.log(System.Logger.Level.INFO, orcamentoSimples);
 
-        orcamento.aplicarDescontoExtra();
+        orcamentoSimples.aplicarDescontoExtra();
 
-        orcamento.finalizar();
-        log.log(System.Logger.Level.INFO, orcamento);
+        orcamentoSimples.finalizar();
+        log.log(System.Logger.Level.INFO, orcamentoSimples);
     }
 }

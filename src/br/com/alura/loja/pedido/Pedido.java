@@ -1,6 +1,6 @@
 package br.com.alura.loja.pedido;
 
-import br.com.alura.loja.orcamento.Orcamento;
+import br.com.alura.loja.orcamento.OrcamentoSimples;
 
 import java.time.LocalDateTime;
 
@@ -8,12 +8,12 @@ public class Pedido {
 
     private String cliente;
     private LocalDateTime data;
-    private Orcamento orcamento;
+    private OrcamentoSimples orcamentoSimples;
 
-    public Pedido(String cliente, LocalDateTime data, Orcamento orcamento) {
+    public Pedido(String cliente, LocalDateTime data, OrcamentoSimples orcamentoSimples) {
         this.cliente = cliente;
         this.data = data;
-        this.orcamento = orcamento;
+        this.orcamentoSimples = orcamentoSimples;
     }
 
     public String getCliente() {
@@ -24,8 +24,8 @@ public class Pedido {
         return data;
     }
 
-    public Orcamento getOrcamento() {
-        return orcamento;
+    public OrcamentoSimples getOrcamento() {
+        return orcamentoSimples;
     }
 
     @Override
@@ -33,7 +33,7 @@ public class Pedido {
         return "Pedido{" +
                 "cliente='" + cliente + '\'' +
                 ", data=" + data +
-                ", orcamento=" + orcamento +
+                ", orcamento=" + orcamentoSimples +
                 '}';
     }
 }
