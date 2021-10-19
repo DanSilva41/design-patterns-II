@@ -18,6 +18,11 @@ Book:
             Para saber mais: https://refactoring.guru/design-patterns/adapter
                              https://refactoring.guru/design-patterns/adapter/java/example
         - Decorator
+            "Decorar(compor) um objeto com outro objeto." (árvore de natal sendo decorada com pisca-pisca, bolinhas...)
+            "Permite adicionar novos comportamentos a um objeto, tornando o código bastante flexível e dinâmico."
+
+            "Usando decoradores, é possível agrupar objetos inúmeras vezes, pois os objetos de destino e os decoradores
+            seguem a mesma interface. O objeto resultante terá um comportamento de empilhamento de todos os wrappers."
 
             Para saber mais: https://refactoring.guru/design-patterns/decorator
                              https://refactoring.guru/design-patterns/decorator/java/example
