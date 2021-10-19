@@ -50,6 +50,16 @@ Book:
                              https://refactoring.guru/design-patterns/facade/java/example
         - Proxy
 
+            "Permite que você forneça um substituto ou um espaço reservado para outro objeto.
+            Um proxy controla o acesso ao objeto original, permitindo que você faça algo ou antes ou depois do pedido chegar ao objeto original."
+
+            "Inicialização preguiçosa (proxy virtual).
+            Este é quando você tem um objeto do serviço peso-pesado que gasta recursos do sistema por estar sempre rodando,
+            mesmo quando você precisa dele de tempos em tempos."
+
+            "Controle de acesso (proxy de proteção).
+            Este é quando você quer que apenas clientes específicos usem o objeto do serviço; por exemplo, quando
+            seus objetos são partes cruciais de um sistema operacional e os clientes são várias aplicações iniciadas (incluindo algumas maliciosas)"
              Para saber mais: https://refactoring.guru/design-patterns/proxy
                               https://refactoring.guru/design-patterns/proxy/java/example
 
